@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Galgje {
 	
@@ -9,6 +10,17 @@ public class Galgje {
 		String teRadenWoord = "Qien";
 		
 		System.out.println(teRadenWoord);
+		Scanner sc = new Scanner(System.in);
+		String i = sc.nextLine();
+		System.out.println(i);
+		
+		if(teRadenWoord.contains(i)) {
+			System.out.println("ja");
+		}else {
+			System.out.println("nee");
+		}	
+		
+		System.out.println("Het spel is klaar");
 		
 	}
 
