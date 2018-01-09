@@ -6,7 +6,6 @@ public class Galgje {
 		System.out.println("Welkom bij Galgje");
 		System.out.println("Het te raden woord");
 
-		teRadenWoord = "Qien";
 
 		System.out.println(teRadenWoord);
 		Scanner sc = new Scanner(System.in);
@@ -23,6 +22,7 @@ public class Galgje {
 		System.out.println("Uw ingevoerde letter is: " + i2);
 		if (teRadenWoord.contains(i2)) {
 			System.out.println("ja, komt voor");
+			System.out.println(teRadenWoord.indexOf(i2) );
 		} else {
 			System.out.println("nee, komt niet voor");
 		}
