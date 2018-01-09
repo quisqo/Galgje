@@ -3,8 +3,13 @@ public class Galgje {
 	
 	public static void main (String[] args) {
 		
-		System.out.println("Hij doet ut");
-		System.out.println("Hij is er");
+		System.out.println("Welkom bij Galgje");
+		System.out.println("Het te raden woord");
+		
+		String teRadenWoord = "Qien";
+		
+		System.out.println(teRadenWoord);
+		
 	}
 
 }
